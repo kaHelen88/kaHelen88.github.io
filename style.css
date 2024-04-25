@@ -1,0 +1,26 @@
+.heroimg {
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.text-mary {
+    color: rgb(100, 11, 148);
+}
+
+.btn-mary {
+    background-color: rgb(100, 11, 148);
+    color: #fff;
+}
+.btn-mary:hover {
+    background-color: rgb(61, 3, 92);
+    color: #fff;
+}
+
+.card {
+    transition: all .4s; /* 動畫漸變 */
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #ddd; /* 往右移5px、下移5px、模糊5px、陰影的顏色 */
+    transform: translate(-5px, -5px) rotate(-1deg); /* 往左移5px、上移5px、逆時針旋轉1度 */
+}
